@@ -39,7 +39,7 @@ const Hero = () => {
      OrdLibrary Portfolio Platform
         </h1>
         <p className="mt-6 text-base leading-8 text-gray-300 sm:text-lg">
-Welcome to the Ord Library Solana NFT Portfolio Platform
+
 Please enter your Solana Wallet Address below 
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
