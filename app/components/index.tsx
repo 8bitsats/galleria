@@ -14,17 +14,8 @@ import TokenMetrics from "./tokens/TokenMetrics";
 import TokenTable from "./tokens/TokenTable";
 import TokensList from "./tokens/TokensList";
 import WalletInput from "./WalletInput";
-import '../styles/globals.css'
-import { AppProps } from 'next/app'
-import useBackgroundChanger from '../hooks/useBackgroundChanger'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  useBackgroundChanger();
-
-  return <Component {...pageProps} />
-}
-
-export default MyApp;
+export {
   Button,
   DynamicTokenRow,
   Hero,
