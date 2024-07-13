@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
       <a
-        href="https://github.com/helius-labs/galleria"
+        href="https://github.com/8bitsats"
         target="_blank"
         rel="noopener noreferrer"
         className="group mb-8 flex justify-center"
       >
         <div className="relative flex items-center rounded-full border border-white border-opacity-20 bg-opacity-25 px-4 py-1 text-xs leading-6 text-white transition-all duration-200 ease-in-out hover:bg-black/10 group-hover:border-opacity-60 group-hover:bg-opacity-75 sm:px-3 sm:text-sm">
-          Read the open source code{" "}
+       Follow 8bit on GitHub!{" "}
           <span className="mx-2 h-4 border-l border-white/20" />
           <div className="flex items-center font-semibold text-accent">
             <span className="absolute inset-0" aria-hidden="true" />
@@ -36,11 +36,11 @@ const Hero = () => {
 
       <div className="text-center">
         <h1 className="bg-gradient-to-r from-white via-accent to-primary bg-clip-text text-5xl font-bold tracking-tighter text-transparent sm:text-7xl/none">
-          Galleria
+         The Old Library Solana Portfolio Platform
         </h1>
         <p className="mt-6 text-base leading-8 text-gray-300 sm:text-lg">
-          Introducing the Helius Digital Asset Standard (DAS) API — the easiest
-          and fastest way to query token and NFT data on Solana
+Welcome to the Ord Library Solana NFT Portfolio Platform
+Please enter your Solana Wallet Address below to connect and view your NFTs and tokens!
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <WalletInput source={"hero"} />
@@ -49,7 +49,7 @@ const Hero = () => {
         {/* Helius hyperlink section */}
         <div className="mt-16">
           <a
-            href="https://docs.helius.dev/compression-and-das-api/digital-asset-standard-das-api"
+            href="https://ordlibrary.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-x-3 rounded-full bg-indigo-100/5 px-3 py-1 text-sm font-semibold leading-6 text-accent ring-1 ring-inset ring-accent/10 transition duration-200 ease-in-out hover:ring-accent/30"
@@ -70,7 +70,7 @@ const Hero = () => {
             </svg>
 
             <span className="opacity-80 transition-all duration-200 ease-in-out group-hover:opacity-100">
-              What&apos;s DAS API?
+          OrdLibrary
             </span>
 
             <svg
