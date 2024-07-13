@@ -22,14 +22,14 @@ const Logo = () => {
 
           {/* Default logo: shown on larger screens */}
           <img
-            src="/helius-logos/desktop-logo.svg"
+            src="/public/logo.png"
             alt="Helius Logo"
             className={`transition-opacity duration-200 ${
               isHovered ? "opacity-0" : "opacity-100"
             }`}
           />
           <img
-            src="/helius-logos/desktop-logo-hover.svg"
+            src="/public/logo.png"
             alt="Helius Hover Logo"
             className={`absolute left-0 top-0 transition-opacity duration-200 ${
               isHovered ? "opacity-100" : "opacity-0"
